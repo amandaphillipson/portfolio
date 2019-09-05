@@ -1,0 +1,18 @@
+
+body{
+    background-image: url("file:///Users/amanda/Downloads/markus-spiske-qjnAnF0jIGk-unsplash.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+h2{
+    font-family: sans-serif;
+    color: goldenrod;
+}
+h3{
+    font-family: sans-serif;
+    color: goldenrod;
+}
+.main-nav{
+    font-family: sans-serif;
+    color: goldenrod;
+}
