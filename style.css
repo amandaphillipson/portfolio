@@ -1,4 +1,8 @@
 
+.{
+    font-family: sans-serif;
+}
+
 body{
     background-image: url("file:///Users/amanda/Downloads/markus-spiske-qjnAnF0jIGk-unsplash.jpg");
     background-repeat:no-repeat;
@@ -15,4 +19,12 @@ h3{
 .main-nav{
     font-family: sans-serif;
     color: goldenrod;
+}
+
+.profile-box{
+    /* box-align: center; */
+    background-color: white;
+    padding: 30px;
+    margin: 15%;
+    margin-top: 75px;
 }
