@@ -1,9 +1,14 @@
 
 
 body{
-    background-image: url("file:///Users/amanda/Downloads/markus-spiske-qjnAnF0jIGk-unsplash.jpg");
+    /* background-image: url("file:///Users/amanda/Downloads/markus-spiske-qjnAnF0jIGk-unsplash.jpg"); */
+    background-color: rgb(115, 115, 115);
     background-repeat:no-repeat;
     background-size:cover;
+}
+h1{
+    font-family: sans-serif;
+    color: goldenrod;
 }
 h2{
     font-family: sans-serif;
@@ -23,27 +28,29 @@ p {
 }
 
 .profile-box{
-    /* box-align: center; */
+    box-align: center;
     background-color: white;
     padding: 30px;
     margin: 15%;
     margin-top: 75px;
     border-radius: 10px;
+    display: grid; 
+    grid-template-columns: 50% 50%;
 }
-
 .profile-pic {
     align-content: center;
     border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.profile-name {
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 
-.nav-bar {
-    font-family: sans-serif;
-    color: goldenrod;
-    background-color: white;
-    padding: 5%;
-    margin: 2%;
-    border-radius: 10px;
-}
+
+
+
 
 .about {
     margin: 2%;
@@ -51,4 +58,52 @@ p {
     background-color: white;
     border-radius: 10px;
     text-align: center;
+}
+
+.nav-bar {
+    font-family: sans-serif;
+    color: goldenrod;
+    background-color: white;
+    padding: 1%;
+    padding-left: 50px;
+    margin: 2%;
+    border-radius: 10px;
+    display: grid; 
+    grid-template-columns: 60% 10% 10% 10% 10%;
+}
+
+.Name {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-items: center;
+}
+.Home {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-items: center;
+}
+.About {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    align-items: stretch;
+}
+.Projects {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    align-items: stretch;
+}
+.Resume {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    align-items: stretch;
+}
+
+.pdf {
+    margin: 2%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
