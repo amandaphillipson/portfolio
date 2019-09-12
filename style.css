@@ -107,3 +107,21 @@ p {
     padding-left: 1%;
     padding-right: 1%;
 }
+
+h4 {
+    font-family: sans-serif;
+    color: goldenrod;
+}
+
+.project-boxes {
+    font-family: sans-serif;
+    color: goldenrod;
+    background-color: white;
+    padding: 1%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 2%;
+    border-radius: 10px;
+    display: grid; 
+}
+
