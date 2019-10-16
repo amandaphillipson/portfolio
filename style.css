@@ -69,7 +69,7 @@ p {
     margin: 2%;
     border-radius: 10px;
     display: grid; 
-    grid-template-columns: 60% 10% 10% 10% 10%;
+    grid-template-columns: 45% 12% 12% 12% 12%;
 }
 
 .Name {
